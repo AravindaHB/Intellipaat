@@ -1,0 +1,17 @@
+package com.intellipaat.sample;
+
+
+
+public class SeleniumHelloWorld {
+
+	public static void main(String[] args) {
+		System.out.println("Main Started");
+		System.setProperty("webdriver.gecko.driver", "driver//geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.close();
+		System.out.println("main ended");
+		
+		
+	}
+}

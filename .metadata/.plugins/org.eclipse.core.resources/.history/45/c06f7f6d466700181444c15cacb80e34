@@ -1,0 +1,8 @@
+package com.intellipaat.sample;
+
+public class SeleniumHelloWorld {
+
+	public static void main(String[] args) {
+		
+	}
+}
