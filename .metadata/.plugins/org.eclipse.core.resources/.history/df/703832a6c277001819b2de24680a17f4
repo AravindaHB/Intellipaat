@@ -1,0 +1,26 @@
+package com.intellipaat.actions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class MouseMMDemo {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.out.println("Main Started");
+		System.setProperty("webdriver.gecko.driver", "driver//geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://www.flipkart.com/");
+		
+		WebElement electronics = driver.findElement(By.xpath("//a[@title='Electronics']"));
+		WebElement Men = driver.findElement(By.xpath("//a[@title='Men']"));
+		WebElement Home = driver.findElement(By.xpath("//a[@title='Home & Furniture']"));
+		
+		Actions act =new Actions(driver);
+		act.moveToElement(electronics).build().perform();
+		Thread.sleep(3000);
+		
+	}
+}

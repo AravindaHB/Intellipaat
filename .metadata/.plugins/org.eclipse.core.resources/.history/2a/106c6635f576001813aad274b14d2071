@@ -1,0 +1,8 @@
+package com.intellipaat.waitsdemo;
+
+public class WebDriverWaitDemo {
+
+	public static void main(String[] args) {
+		
+	}
+}

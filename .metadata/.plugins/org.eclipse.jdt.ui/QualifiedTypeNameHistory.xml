@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.FluentWait"/>
+<fullyQualifiedTypeName name="java.time.Duration"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.NoSuchElementException"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.TimeoutException"/>
+<fullyQualifiedTypeName name="com.google.common.base.Function"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="com.google.common.base.Predicate"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="java.lang.StrictMath"/>
 </qualifiedTypeNameHistroy>

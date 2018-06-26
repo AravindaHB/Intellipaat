@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HandlingMultipleElements.java&apos; to &apos;SeleniumPractice/src/com.intellipaat.test&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumPractice&apos;&#x0D;&#x0A;- Destination element: &apos;SeleniumPractice/src/com.intellipaat.test&apos;&#x0D;&#x0A;- Original element: &apos;com.intellipaat.test.HandlingMultipleElements.java&apos;" description="Copy compilation unit" destination="/src&lt;com.intellipaat.test" element1="/src&lt;com.intellipaat.test{HandlingMultipleElements.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1529163810740" units="1" version="1.0"/>
+</session>

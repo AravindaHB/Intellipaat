@@ -1,5 +1,7 @@
 package com.intellipaat.test;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,6 +15,8 @@ public class LoginTest2 {
 		System.out.println("Main Started");
 		System.setProperty("webdriver.gecko.driver", "driver//geckodriver.exe");
 		driver = new FirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
 		driver.get("http://localhost:8080/login.do");
 		
 		driver.findElement(By.id("username")).sendKeys("admin");

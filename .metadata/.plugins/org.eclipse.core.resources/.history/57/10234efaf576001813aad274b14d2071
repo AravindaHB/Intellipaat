@@ -1,0 +1,21 @@
+package com.intellipaat.waitsdemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class WebDriverWaitDemo {
+
+	static WebDriver driver = null;
+	public static void main(String[] args) {
+		System.out.println("Main Started");
+		System.setProperty("webdriver.gecko.driver", "driver//geckodriver.exe");
+		driver = new FirefoxDriver();
+		driver.get("file:///D:/Intellipaat/html/PageLoadApp.html");
+		
+		driver.findElement(By.id("btnContinue")).isDisplayed();
+		
+		driver.close();
+		System.out.println("main ended...");
+	}
+}

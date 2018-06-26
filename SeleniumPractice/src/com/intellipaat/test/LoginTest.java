@@ -34,6 +34,7 @@ public class LoginTest {
 		System.out.println("closing browser.... ");
 		driver.close();
 		driver=null;
+			
 		
 		
 	}

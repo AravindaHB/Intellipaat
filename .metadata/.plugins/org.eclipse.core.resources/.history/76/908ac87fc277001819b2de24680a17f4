@@ -1,0 +1,20 @@
+package com.intellipaat.actions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class MouseMMDemo {
+
+	public static void main(String[] args) {
+		System.out.println("Main Started");
+		System.setProperty("webdriver.gecko.driver", "driver//geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://www.flipkart.com/");
+		
+		electronics = driver.findElement(By.xpath("//a[@title='Electronics']"));
+		Men = driver.findElement(By.xpath("//a[@title='Men']"));
+		Home = driver.findElement(By.xpath("//a[@title='Home & Furniture']"));
+		
+	}
+}

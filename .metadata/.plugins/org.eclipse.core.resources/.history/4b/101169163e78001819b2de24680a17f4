@@ -1,0 +1,26 @@
+package com.intellipaat.multibrowser;
+
+import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TabBrowserDemo {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.out.println("Main Started");
+		System.setProperty("webdriver.gecko.driver", "driver//geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://www.irctc.co.in/eticketing/userSignUp.jsf");
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		driver.findElement(By.xpath("//a[text()='Flights']")).click();
+		 ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
+		
+		System.out.println(tabs2.size());
+		
+	}
+	 
+}

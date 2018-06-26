@@ -1,0 +1,18 @@
+package com.intellipaat.waitsdemo;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class WebDriverWaitDemo {
+
+	static WebDriver driver = null;
+	public static void main(String[] args) {
+		System.out.println("Main Started");
+		System.setProperty("webdriver.gecko.driver", "driver//geckodriver.exe");
+		driver = new FirefoxDriver();
+		
+	}
+}

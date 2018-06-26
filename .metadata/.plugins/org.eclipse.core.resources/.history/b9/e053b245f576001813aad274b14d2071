@@ -1,0 +1,14 @@
+package com.intellipaat.waitsdemo;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class WebDriverWaitDemo {
+
+	public static void main(String[] args) {
+		System.out.println("Main Started");
+		System.setProperty("webdriver.gecko.driver", "driver//geckodriver.exe");
+		driver = new FirefoxDriver();
+		driver.get("http://localhost:8080/login.do");
+		
+	}
+}

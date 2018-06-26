@@ -1,0 +1,31 @@
+package com.intellipaat.actions;
+
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class ActionsDemo {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.out.println("Main Started");
+		System.setProperty("webdriver.gecko.driver", "driver//geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://localhost:8080/login.do");
+		
+		Actions act = new Actions(driver);
+		act.sendKeys("admin").perform();
+		Thread.sleep(1000);
+		act.sendKeys(Keys.TAB).perform();
+		Thread.sleep(1000);
+		act.sendKeys("manager").perform();
+		Thread.sleep(1000);
+		act.sendKeys(Keys.TAB).perform();
+		act.sendKeys(Keys.TAB).perform();
+		act.sendKeys(Keys.ENTER).perform();
+		
+		System.out.println("main ended....");
+		
+		
+	}
+}

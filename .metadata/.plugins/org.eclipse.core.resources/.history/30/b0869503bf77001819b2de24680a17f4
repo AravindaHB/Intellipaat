@@ -1,0 +1,16 @@
+package com.intellipaat.actions;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class DragAndDropDemo {
+
+	public static void main(String[] args) {
+		System.out.println("Main Started");
+		System.setProperty("webdriver.gecko.driver", "driver//geckodriver.exe");
+		driver = new FirefoxDriver();
+		driver.get("http://localhost:8080/login.do");
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+	}
+}
